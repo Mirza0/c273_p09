@@ -5,7 +5,7 @@ $(document).ready(function () {
         
          $.ajax({
                     type: "GET",
-                    url: "https://c273lesson9.azurewebsites.net/getCountryDeatils..php",
+                    url: "https://c273lesson9.azurewebsites.net/getCountryDetails..php",
                     data: "id=" + id,
                     cache: false,
                     dataType: "JSON",
